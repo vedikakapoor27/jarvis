@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "JARVIS",
+    "slug": "jarvis-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#020b14"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.stark.jarvis"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#020b14"
+      },
+      "package": "com.stark.jarvis"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset"
+    ]
+  }
+}
