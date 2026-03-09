@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Colors } from '../constants/colors';
-import { askJarvis, resetConversation } from '../services/claudeAPI';
+import { askJarvis, resetConversation } from '../services/GeminiAPI';
 
 // Single message bubble
 const MessageBubble = ({ item }) => {
