@@ -402,4 +402,4 @@ const styles = StyleSheet.create({
     color: 'rgba(0,212,255,0.2)',
     textAlign: 'center',
   },
-});
+}); 
